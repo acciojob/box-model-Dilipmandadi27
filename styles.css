@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.container{
+	background:rgb(212,211,212);
+	border-radius:10px;
+	border:2px solid black;
+	list-style-type:none;
+	display:flex;
+}
+li{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:8px;
+	margin:10px;
+	
+}
+.green{
+	color:green;
+}
+.yellow{
+	
+}
