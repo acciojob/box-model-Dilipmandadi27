@@ -1,22 +1,49 @@
 /*  your css code here. If applicable */
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container{
-	background:rgb(212,211,212);
-	border-radius:10px;
+	display:flex;
+    align-items: center;
+    justify-content: center;
 	border:2px solid black;
-	list-style-type:none;
-	display:flex;
+	border-radius:30px;
+    width: 250px;
+    background-color: rgb(211,211,211);
+    gap: 10px;
+    padding: 30px;
 }
-li{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	padding:8px;
-	margin:10px;
-	
-}
+
 .green{
-	color:green;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
 }
+
 .yellow{
-	
+    width: 40px;
+    height: 40px;
+  background-color: yellow;
+    border-radius: 50%;
+    padding: 10px;
 }
+
+
+.red{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
